@@ -236,7 +236,7 @@
                 <div class="sampleOI">
                     <div class="imgIO"> <img src="img/o3.jpg" alt="#"></div>
                     <h3>To Do List</h3>
-                    <p>The following article covers a topic that has recently moved to center stage‚Äìat least it seems.
+                    <p>The following article covers a topic that has recently moved to center stageñat least it seems.
                     </p>
                 </div>
                 <div class="sampleOI">
@@ -330,10 +330,10 @@
                 <div class="noPackCont">
                     <h1>Did not find your Package?
                         Feel free to ask us.
-                        We‚Äòll make it for you</h1>
-                    <p class="info5">inappropriate behavior is often laughed off as ‚Äúboys will be boys,‚Äù women face
+                        Weëll make it for you</h1>
+                    <p class="info5">inappropriate behavior is often laughed off as ìboys will be boys,î women face
                         higher
-                        conduct standards especially in the workplace. That‚Äôs why it‚Äôs crucial that, as women, our
+                        conduct standards especially in the workplace. Thatís why itís crucial that, as women, our
                         behavior
                         on the job is beyond reproach. inappropriate behavior is often laughed.</p>
                     <button class="noPackBtn">request custom price</button>
@@ -359,7 +359,7 @@
                                 <button>Lifestyle</button>
                             </div>
                             <h3>Creative Outdoor Ads</h3>
-                            <p>Acres of Diamonds‚Ä¶ you‚Äôve read the famous story, or at least had it related to you. A
+                            <p>Acres of DiamondsÖ youíve read the famous story, or at least had it related to you. A
                                 farmer.</p>
                         </div>
                         <h5>31st January, 2018</h5>
@@ -373,7 +373,7 @@
                                 <button>Lifestyle</button>
                             </div>
                             <h3>Creative Outdoor Ads</h3>
-                            <p>Acres of Diamonds‚Ä¶ you‚Äôve read the famous story, or at least had it related to you. A
+                            <p>Acres of DiamondsÖ youíve read the famous story, or at least had it related to you. A
                                 farmer.</p>
                         </div>
                         <h5>31st January, 2018</h5>
@@ -388,7 +388,7 @@
                                 <button>Lifestyle</button>
                             </div>
                             <h3>Creative Outdoor Ads</h3>
-                            <p>Acres of Diamonds‚Ä¶ you‚Äôve read the famous story, or at least had it related to you. A
+                            <p>Acres of DiamondsÖ youíve read the famous story, or at least had it related to you. A
                                 farmer.</p>
                         </div>
                         <h5>31st January, 2018</h5>
@@ -402,7 +402,7 @@
                                 <button>Lifestyle</button>
                             </div>
                             <h3>Creative Outdoor Ads</h3>
-                            <p>Acres of Diamonds‚Ä¶ you‚Äôve read the famous story, or at least had it related to you. A
+                            <p>Acres of DiamondsÖ youíve read the famous story, or at least had it related to you. A
                                 farmer.</p>
                         </div>
                         <h5>31st January, 2018</h5>
@@ -433,7 +433,7 @@
             <article>
                 <h3>about agency</h3>
                 <p>
-                    The world has become so fast paced that people don‚Äôt want to stand by reading a page of information,
+                    The world has become so fast paced that people donít want to stand by reading a page of information,
                     they would much rather look at a presentation and understand the message. It has come to a point
                 </p>
             </article>
@@ -474,7 +474,7 @@
         <!-- ligneBottom -->
         <section class="footerBot">
             <p>
-                Copyright ¬©2019 All rights reserved | This template is made with <i class="far fa-heart"></i> by <a
+                Copyright ©2019 All rights reserved | This template is made with <i class="far fa-heart"></i> by <a
                     href="#" class="colorib"> Colorlib</a>
 
             </p>
@@ -494,5 +494,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
     <script src="js/main.min.js"></script>
 </body>
+
+</html>
+
+JS
+
+
+jQuery(document).ready(function(){
+         
+  $(window).scroll(function() {
+console.log($(window).width());
+      if(($(window).scrollTop() > 125) ) {
+      $('header').addClass('stix');
+      $('.medias').addClass('stixActives');
+      $('nav').addClass('stixActive')
+      }else{
+        $('header').removeClass('stix')
+        $('.medias').removeClass('stixActives');
+      $('nav').removeClass('stixActive')
+      }
+
+    });
+  });
+
+
+
+
+
+JSJS
 
 </html>
